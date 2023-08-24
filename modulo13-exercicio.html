@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Óculos EBAC</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        header {
+            padding: 20px;
+        }
+
+        .container, article {
+            margin-top: 20px;
+        }
+
+        article {
+            margin-bottom: 50px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            .row {
+                grid-template-columns: repeat(2, 49%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Óculos EBAC</h3>
+    </header>
+
+    <div>
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://images.rawpixel.com/image_1000/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yMF9yZWFsX3Bob3RvX2Flc3RoZXRpY19mYXNoaW9uYWJsZV9jb25maWRlbnRfd183ZGIwMDBiZS0yNDJlLTRmMzQtYTE0ZC1iY2M5MzUxM2Y2MzRfMS5qcGc.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://images.rawpixel.com/image_1000/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8xMV93b21lbnNfY2xvdGhpbmdfY2xvdGhpbmdfbWluaW1hbF9vdXRkb29yX2xpZ182N2Y3YWI1OS1iZjZhLTQ3MTktYTJiMS05NzZlYjJkMWFiNDBfMS5qcGc.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://images.rawpixel.com/image_1000/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlN19kYXVnaHRlcl9zaXR0aW5nX29uX2RhZHNfc2hvdWxkZXJzX29uX2hvbGlkYXlfZTM4ZGQ5ZWYtMmU4NC00NzA5LThlYzktZWU0MDAzNWUzMmZjXzEuanBn.jpg" alt="">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <article class="card">
+                    <header class="card-header">
+                        Lançamento
+                    </header>
+                    <img src="https://cdn.shopify.com/s/files/1/0399/6470/4933/files/produto_acetato-metal_zoe_tortoise-mello-com-prata_grau_02_0cb57dc6-cfc7-4c1f-86fc-4338b93771f2_1400x.jpg?v=1686950631" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Modelo Zoé | Grau</h4>
+                        <p class="text">Material: acetato + metal</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <footer class="card-footer">
+                        <time>R$ 490,00</time>
+                    </footer>
+                </article>            
+            </div>            
+            <div class="col-md-6 col-lg-4">
+                <article class="card">
+                    <header class="card-header">
+                        Lançamento
+                    </header>
+                    <img src="https://cdn.shopify.com/s/files/1/0399/6470/4933/products/produto_acetato_fine_champagne_solar-g15_2_1400x.jpg?v=1656348893" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Modelo Haru | Escuro</h4>
+                        <p class="text">Material: acetato</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <footer class="card-footer">
+                        <time>R$ 600,00</time>
+                    </footer>
+                </article>            
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="card">
+                    <header class="card-header">
+                        Lançamento
+                    </header>
+                    <img src="https://cdn.shopify.com/s/files/1/0399/6470/4933/products/produto_acetato_zeq_tortoise-araca_grau_2_1400x.jpg?v=1680550405" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Modelo Bossa | Grau</h4>
+                        <p class="text">Material: acetato</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <footer class="card-footer">
+                        <time>R$ 530,00</time>
+                    </footer>
+                </article>            
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
